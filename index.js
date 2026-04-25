@@ -1,6 +1,7 @@
 // Lab: Flatburger Restaurant
-let burgers = ["Hamburger", "Cheeseburger"];
-let drink = "milkshake";
+
+const burgers = ["Hamburger", "Cheeseburger"];
+let featuredDrink = "milkshake";
 let featuredItem = "";
 
 function setFeaturedItem(item) {
@@ -8,15 +9,13 @@ function setFeaturedItem(item) {
 }
 
 function addSpecialBurger() {
-    if (true) {
-        let specialBurger = "BBQ Bacon Burger";
-        burgers.push(specialBurger);
-    }
+    let specialBurger = "BBQ Bacon Burger";
+    burgers.push(specialBurger);
 }
 
 setFeaturedItem("Double Cheeseburger");
 addSpecialBurger();
 
 console.log(burgers);
-console.log(drink);
+console.log(featuredDrink);
 console.log(featuredItem);
