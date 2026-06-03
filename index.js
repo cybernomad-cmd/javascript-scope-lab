@@ -1,21 +1,17 @@
-// Lab: Flatburger Restaurant
-
 const burgers = ["Hamburger", "Cheeseburger"];
-let featuredDrink = "milkshake";
-let featuredItem = "";
 
-function setFeaturedItem(item) {
-    featuredItem = item;
+let featuredDrink = "Strawberry Milkshake";
+
+function addBurger() {
+const newBurger = "Flatburger";
+burgers.push(newBurger);
 }
 
-function addSpecialBurger() {
-    let specialBurger = "BBQ Bacon Burger";
-    burgers.push(specialBurger);
+if(true){
+const anotherNewBurger = "Maple Bacon Burger";
+burgers.push(anotherNewBurger);
 }
 
-setFeaturedItem("Double Cheeseburger");
-addSpecialBurger();
-
-console.log(burgers);
-console.log(featuredDrink);
-console.log(featuredItem);
+function changeFeaturedDrink() {
+featuredDrink = "The JavaShake";
+}
